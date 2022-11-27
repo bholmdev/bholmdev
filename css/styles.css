@@ -238,7 +238,8 @@ footer {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    -moz-background-clip: text; 
+    -moz-background-clip: text;
+    font-size: 20px;
 }
 
 .messageBox {
