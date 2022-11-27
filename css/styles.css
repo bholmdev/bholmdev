@@ -104,6 +104,7 @@ hr {
     font-weight: 300;
     padding-top: 5px;
     margin-top: 20px;
+    box-shadow: 5px 5px 20px grey;
 }
 
 .button:focus {
@@ -133,11 +134,13 @@ hr {
     display: flex;
     justify-content: space-around;
     padding: 80px;
+    background-color: whitesmoke;
 }
 
 .headshot {
     width: 300px;
     border-radius: 25px;
+    box-shadow: 5px 5px 20px grey;
 }
 
 .headshot-container {
@@ -150,6 +153,7 @@ hr {
     flex-direction: column;
     text-align: center;
     padding: 80px;
+    background-color: whitesmoke;
 }
 
 .project-container {
@@ -171,7 +175,7 @@ hr {
 }
 
 footer {
-    background-color: black;
+    background-color: #1c1d25;
     color: white;
     text-align: center;
     padding: 80px;
