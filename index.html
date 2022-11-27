@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>BHolmDev</title>
+</head>
+<body>
+    <section class="hero">
+        <nav>
+            <div class="logo">
+                <h1>B</h1><p>holmDev</p>
+            </div>
+            <ul id="navList">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+        </nav>
+        <div class="hero-area">
+            <div class="hero-text">
+                <h1>Brandon Holman</h1>
+                <p>Full Stack Developer</p>
+                <div class="button"><a href="#aboutMe">About Me</a></div>
+            </div>
+            <div class="socials">
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/brandon-holman-dev/" target="_blank" rel="noopener noreferrer"><i class="brand-color fa-brands fa-2x fa-linkedin"></i></a>
+                </div>
+                <div class="social">
+                    <a href="https://github.com/bholmdev" target="_blank" rel="noopener noreferrer"><i class="brand-color fa-brands fa-2x fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="aboutMe">
+        <div>
+            <h2>About Me</h2>
+            <p>Hello, I am Brandon and I am an aspiring software developer who has been in various fields of the tech industry for over 20 years.</p>
+        </div>
+        <div class="headshot-container"><img class="headshot" src="img/headshot.png" alt="Picture of Me"></div>
+    </section>
+
+    <section class="project-section" id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <a href="https://github.com/bholmdev/nucampsiteLive" target="_blank" rel="noopener noreferrer"><img class="project-image" src="img/nucamp.PNG" alt="NuCamp Camping Site"></a>
+                <hr>
+                <h3>NuCamp Camping Site</h3>
+                <p class="subtext">This was my first bootcamp project.</p>
+            </div>
+            <div class="project-card">
+                <a href="https://github.com/bholmdev/Vitality-Potion" target="_blank" rel="noopener noreferrer"><img class="project-image" src="img/vitality.PNG" alt="Vitatlity Potion Project"></a>
+                <hr>
+                <h3>Vitality Potion Site</h3>
+                <p class="subtext">This was my first independant project.</p>
+            </div>
+        </div>
+        <div class="project-container">
+            <div class="project-card">
+                <a href="https://github.com/bholmdev/C4Race" target="_blank" rel="noopener noreferrer"><img class="project-image" src="img/c4race.PNG" alt="C4Race Site"></a>
+                <hr>
+                <h3>C4Race Site</h3>
+                <p class="subtext">This is a site I am building for a friend.</p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="img/coming-soon.PNG" alt="coming soon">
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2 class="contactLine">Contact Me</h2>
+        <form action="https://formsubmit.co/bholmdev@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New submission!">
+            <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+            <div class="nameInput">
+                <label class="nameLabel" for="name">Name:&nbsp</label>
+                <input type="text" class="nameBox" id="name" name="name" placeholder="Your name..." required>
+            </div>
+            <div class="emailInput">
+                <label class="emailLabel" for="name">Email:&nbsp</label>
+                <input type="email" class="emailBox" id="email" name="email" placeholder="Your email..." required>
+            </div>
+            <div class="message">
+                <label for="message">Message:&nbsp</label>
+            </div>
+            <div class="userMessage">
+                <textarea name="message" class="messageBox" id="message" cols="50" rows="10" placeholder="Send me a personal message..."></textarea>
+            </div>
+            <div class="formButtons">
+                <button class="submitBtn" type="submit">Submit</button>
+                <input class="resetBtn" type="reset">
+            </div>
+       </form>
+    </footer>
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/191354c916.js" crossorigin="anonymous"></script>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
