@@ -209,6 +209,7 @@ footer {
     height: 30px;
     width: 200px;
     font-size: 18px;
+    border: 1px solid #00b4db;
 }
 
 .emailInput {
@@ -221,6 +222,7 @@ footer {
     height: 30px;
     width: 200px;
     font-size: 18px;
+    border: 1px solid #00b4db;
 }
 
 .emailLabel {
@@ -246,6 +248,7 @@ footer {
     background-color: #1c1d25;
     color: #00b4db;
     font-size: 18px;
+    border: 1px solid #00b4db;
 }
 
 .formButtons {
