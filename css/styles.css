@@ -320,7 +320,7 @@ footer {
     }
     .hamburger {
         display: flex;
-        align-self: start;
+        align-self: center;
         text-align: center;
         border: 0;
         background-image: linear-gradient(to right, #00b4db, #0083b0);
@@ -329,7 +329,7 @@ footer {
         -webkit-background-clip: text;
         -moz-background-clip: text;
         color: white;
-        font-size: 30px;
+        font-size: 60px;
         margin: 20px;
     }
 
