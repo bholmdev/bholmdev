@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+### Thank you to Ania Kudow for helping me with this build!
+
 <!--
 **bholmdev/bholmdev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
