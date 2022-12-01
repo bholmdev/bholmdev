@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -42,6 +46,10 @@ ul {
 li {
     width: 200px;
     text-decoration: none;
+}
+
+.nav-link {
+    transition: all 0.3s ease;
 }
 
 .nav-link:hover {
