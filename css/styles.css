@@ -44,6 +44,11 @@ li {
     text-decoration: none;
 }
 
+.nav-link:hover {
+    font-size: 35px;
+    transition: all 0.3s ease;
+}
+
 h1 {
     font-size: 90px;
     margin: 0;
@@ -94,6 +99,14 @@ hr {
     -moz-background-clip: text;
 }
 
+.brand-color:hover {
+    background-image: linear-gradient(to left, #00b4db, #0083b0);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+
 .button {
     width: 200px;
     height: 55px;
@@ -104,7 +117,17 @@ hr {
     font-weight: 300;
     padding-top: 5px;
     margin-top: 20px;
+    box-shadow: 3px 3px 17px grey;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
     box-shadow: 5px 5px 20px grey;
+    width: 205px;
+    height: 60px;
+    font-size: 31px;
+    text-align: center;
+    transition: all 0.3s ease;
 }
 
 .button:focus {
@@ -167,11 +190,18 @@ hr {
     /* border: 1px solid black; */
     box-shadow: 5px 5px 20px grey;
     margin: 10px;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    width: 405px;
+    height: 405px;
+    transition: all 0.3s ease;
 }
 
 .project-image {
     margin-top: 25px;
-    width: 400px;
+    width: 100%;
 }
 
 footer {
@@ -264,11 +294,19 @@ footer {
     font-size: 20px;
 }
 
+.submitBtn:hover {
+    padding: 15px;
+}
+
 .resetBtn {
     background-color: #00b4db;
     padding: 10px;
     border-radius: 10px;
     font-size: 20px;
+}
+
+.resetBtn:hover {
+    padding: 15px;
 }
 
 .hamburger {
