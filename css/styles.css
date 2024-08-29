@@ -115,6 +115,10 @@ hr {
     -moz-background-clip: text;
 }
 
+.btn-container {
+    display: flex;
+}
+
 .button {
     width: 200px;
     height: 55px;
@@ -125,6 +129,7 @@ hr {
     font-weight: 300;
     padding-top: 5px;
     margin-top: 20px;
+    margin-right: 50px;
     box-shadow: 3px 3px 17px grey;
     transition: all 0.3s ease;
 }
