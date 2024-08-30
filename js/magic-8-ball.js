@@ -1,4 +1,3 @@
-let randomNumber = Math.floor(Math.random() * 20) + 1;
 let playerName = null;
 let question = null;
 let answer = "";
@@ -30,7 +29,9 @@ const askQuestion = () => {
 }
 
 const generateAnswer = () => {
+    let randomNumber = Math.floor(Math.random() * 20) + 1;
     console.log(randomNumber);
+
     switch (randomNumber) {
         case 1:
             answer = "It is certain.";
