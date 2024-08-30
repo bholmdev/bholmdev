@@ -1,8 +1,12 @@
 const hamburgerButton = document.getElementById("hamburger");
 const navList = document.getElementById("navList");
 
-function toggleButton() {
+function toggleMenu() {
     navList.classList.toggle("show")
 }
 
-hamburgerButton.addEventListener("click", toggleButton);
+function toggleButton(x) {
+    x.classList.toggle("change");
+  }
+
+hamburgerButton.addEventListener("click", toggleMenu);
