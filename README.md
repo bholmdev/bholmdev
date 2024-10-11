@@ -1,5 +1,5 @@
 ### Hi there 👋
 
-My name is Brandon Holman and I have been in various tech related fields for over 20 years.  In the future I want to build a career that leads to machine learning/artificial intelligence.
+Hello World!  With over two decades of experience in various technical fields, I am highly experienced in customer service, working with people, and a team player with a positive attitude.  With my background I can adapt to any situation and am an expert problem solver.  Currently pursuing a specialization in Cybersecurity through TCM Academy and studying for the CCNA certification, I’m eager to leverage my skills and experience to contribute to innovative cybersecurity and networking solutions.
 
 https://brandon-holman.com
